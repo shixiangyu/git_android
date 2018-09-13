@@ -14,7 +14,9 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.git).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //log标志
                 Log.d("shixiangyu","git");
+
             }
         });
     }
