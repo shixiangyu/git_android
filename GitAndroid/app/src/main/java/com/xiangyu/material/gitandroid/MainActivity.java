@@ -20,4 +20,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    private void test(){
+        //添加test方法
+    }
 }
