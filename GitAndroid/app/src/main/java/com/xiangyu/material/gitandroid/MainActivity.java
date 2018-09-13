@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //log标志
-                Log.d("shixiangyu","git");
+                Log.d("shixiangyu","gittest");
 
             }
         });
