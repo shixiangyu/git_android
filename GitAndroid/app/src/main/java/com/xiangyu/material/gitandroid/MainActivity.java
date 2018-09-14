@@ -28,4 +28,8 @@ public class MainActivity extends AppCompatActivity {
     private void sum(){
 
     }
+
+    private void add(){
+
+    }
 }
