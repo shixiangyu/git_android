@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //log标志
                 Log.d("shixiangyu","gitmaster,gittest");
+                Log.d("shixaingyu","新增加了分支");
             }
         });
     }
