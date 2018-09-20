@@ -9,4 +9,7 @@ public class TestActivity {
 
     private void test1(){
     }
+
+    private void test2(){
+    }
 }
