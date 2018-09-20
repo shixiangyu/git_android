@@ -6,4 +6,7 @@ package com.xiangyu.material.gitandroid;
 public class TestActivity {
     private void test(){
     }
+
+    private void test1(){
+    }
 }
