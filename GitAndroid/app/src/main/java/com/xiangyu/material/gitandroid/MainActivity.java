@@ -1,5 +1,6 @@
 package com.xiangyu.material.gitandroid;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -15,21 +16,23 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //log标志
-                Log.d("shixiangyu","gitmaster,gittest");
-                Log.d("shixaingyu","新增加了分支");
+                Log.d("shixiangyu", "gitmaster,gittest");
+                Log.d("shixaingyu", "新增加了分支");
             }
         });
     }
 
-    private void test(){
+    private void test() {
         //添加test方法
     }
 
-    private void sum(){
+    private void sum() {
+        Intent intent = new Intent(this, TestActivity.class);
+        startActivity(intent);
 
     }
 
-    private void add(){
+    private void add() {
 
     }
 }
