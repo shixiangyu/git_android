@@ -3,6 +3,8 @@ package com.xiangyu.material.gitandroid;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import org.json.JSONObject;
+
 /**
  * Created by shixiangyu on 2019-10-30.
  */
@@ -12,6 +14,10 @@ public class VipName implements Parcelable {
 
     public VipName() {
 
+    }
+
+    public void fromJson(JSONObject jsonObject){
+        name = jsonObject.optString("name");
     }
 
     protected VipName(Parcel in) {
