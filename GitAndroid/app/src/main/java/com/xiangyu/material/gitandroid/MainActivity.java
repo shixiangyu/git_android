@@ -34,6 +34,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void getVip() {
         VipName vip = new VipName();
-        String price = vip.getName();
+        String price = vip.name;
     }
 }
