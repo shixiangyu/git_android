@@ -35,4 +35,9 @@ public class MainActivity extends AppCompatActivity {
     private void add() {
 
     }
+
+    private void getVip() {
+        VipName vip = new VipName();
+        String price = vip.getName();
+    }
 }
